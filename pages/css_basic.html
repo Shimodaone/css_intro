@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* правило:
+        селектор {
+            свойство1: значение1;
+            свойство2: значение2;
+            ...
+        } */
+        /*
+        типы селекторов:
+        - селектор типа (элемента)  001
+        - селектор класса           010
+        - селектор идентификатора   100
+        - селектор inline (style)   1000
+        */
+        h1 {
+            color: blue;
+        }
+        /*
+        #red_header_1 {
+            color: red;
+        }
+        #red_header_2 {
+            color: red;
+        }
+        */
+        .red_header {
+            color: red;
+        }
+        .green_header {
+            color: green;
+        }
+        #yellow_header {
+            color: yellow;
+        }
+    </style>
+    <link rel="stylesheet" href="./../css/styles.css">
+    <title>CSS basic</title>
+</head>
+<body>
+    <h1 id="red_header_1" class="red_header">HEADER1</h1>
+    <h1 class="green_header">HEADER2</h1>
+    <h1 id="red_header_2" class="red_header">HEADER3</h1>
+    <h1 style="color: orange">HEADER4</h1>
+    <h1 id="yellow_header" class="green_header">HEADER5</h1>
+    <h1>HEADER6</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus minima ipsam sequi modi quasi iste veritatis exercitationem ab? Unde voluptate odit veritatis pariatur? Saepe accusantium corporis blanditiis beatae cum temporibus.
+    </p>
+    <a>link</a>
+    <button>Sign In</button>
+    <button>Login</button>
+</body>
+</html>
